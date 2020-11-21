@@ -1,0 +1,79 @@
+Crear un archivo.js  para cada ejercicio y correr su resultado con el comando node en la terminal
+
+Ejercicio
+Se tiene dos variables (var1 y var2) con un valor de 150 y 300 respectivamente.
+Realizar un programa que, mediante una función denominada changeVariable, implemente la cambio de los valores iniciales de las variables 
+a un nuevo valor el cual sebe ser injectado por parametros. 
+
+Mostrar con console.log lo siguiente.
+Valor inicial de var1: 150
+Valor inicial de var2: 300
+Nuevo valor de var1: 'Valor asignado con parametros'
+Nuevo valor de var2: 'Valor asignado con parametros'
+...........................................................................................
+Ejercicio
+Realizar un programa que mediante una funcion, sume 5 numeros los cuales deben ser inyectados como parametros de la funcion al 
+ser llamada
+...........................................................................................
+Ejercico
+
+Se tiene las siguientes variables:
+const a = '</title>'
+const b = '</html>'
+const c = '<head>'
+const d = '</body>'
+const e = '<html>'
+const f = '</head>'
+const g = '<title>'
+const h = '<body>'
+
+Desarrollar una funcion que concatene  todas las variables que son inyectadas por parametros al ser llamada.
+
+El resultado se debe ver de la siguiente manera: 
+<html><head><title></title></head><body></body></html>
+..............................................................................................
+Ejercicio
+Definir una variable con un numero y Desarrollar una funcion que verifique si este numero es negativo.
+
+La respuesta se dbee ver asi:
+¿El numero ingresado es negativo?: true
+¿El numero ingresado es negativo?: false
+
+Dato: Se considera que un numero es positivo cuando es mayor a cero y negativo cuando es menor a cero.
+...............................................................................................
+Ejercico
+Se tienen las calificaciones de de un alumno
+const Fisica = 17
+const Quimica = 16
+const lenguaje = 19
+const Matematica = 14
+const Deporte= '09'
+const Estadistica = '12'
+
+Desarrollar una funcion que calcule el promedio de todas las materias y mostrar por consola por mensaje.
+
+NOTA: Existe un bug en el backend que devuelve algunas materias con su valor en string y aun no ha podido ser resuelte. 
+hacer la funcion que resuelva este problema desde el front al mostrar los datos.
+................................................................................................
+Ejercico
+Se tiene el siguiente codigo
+const tax = 0.19
+let harina = undefined
+let cafe = undefined
+let pasta = undefined
+
+function subtotal () {
+
+}
+function iva (subtotal) {
+    
+}
+function total () {
+    
+}
+
+let totalToPrint = total()
+console.log('Total a pagar: ', totalToPrint)
+
+Calcular el total de los productos ingresados llamando a la funcion total().
+NOTA: Sera necesario llamar funciondes dentro de otras funciones 
